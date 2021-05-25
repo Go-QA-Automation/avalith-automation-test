@@ -43,7 +43,7 @@ func WDInit() selenium.WebDriver {
 	defer service.Stop()
 
 	caps := selenium.Capabilities(map[string]interface{}{"browserName": "chrome"})
-	driver, err := selenium.NewRemote(caps, "")
+	driver, err = selenium.NewRemote(caps, "")
 	if err != nil {
 		log.Println("(support/base) | Error al instanciar driver Selenium -> ", err.Error())
 	}
