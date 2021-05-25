@@ -6,6 +6,7 @@ install:
 	@go get -u github.com/cucumber/godog/cmd/godog
 	@go mod tidy
 	@npm install cucumber-html-reporter --save-dev
+	@mkdir log
 
 selenium:
 	@java -jar resources/selenium-server-standalone-3.141.59.jar
