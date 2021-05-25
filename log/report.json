@@ -1,0 +1,588 @@
+[
+    {
+        "uri": "feature/navigation.feature",
+        "id": "navegación",
+        "keyword": "Feature",
+        "name": "Navegación",
+        "description": "    Para que pueda acceder a la pagína\n    Siendo un usuario cualquiera",
+        "line": 1,
+        "elements": [
+            {
+                "id": "navegación;navegacion-a-about-us",
+                "keyword": "Scenario",
+                "name": "Navegacion a About Us",
+                "description": "",
+                "line": 6,
+                "type": "scenario",
+                "tags": [
+                    {
+                        "name": "@AboutUs",
+                        "line": 5
+                    }
+                ],
+                "steps": [
+                    {
+                        "keyword": "Given ",
+                        "name": "accedo a la pagina principal",
+                        "line": 7,
+                        "match": {
+                            "location": "navigation_test.go:18"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 865660700
+                        }
+                    },
+                    {
+                        "keyword": "When ",
+                        "name": "hago click en el menu",
+                        "line": 8,
+                        "match": {
+                            "location": "navigation_test.go:26"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 86713500
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "hago click en el enlance About Us",
+                        "line": 9,
+                        "match": {
+                            "location": "feature/navigation.feature:9"
+                        },
+                        "result": {
+                            "status": "undefined"
+                        }
+                    },
+                    {
+                        "keyword": "Then ",
+                        "name": "estoy en la página About Us con texto \"Two brothers with the same passion, the same dream: building their careers and enhancing the IT industry.\"",
+                        "line": 10,
+                        "match": {
+                            "location": "navigation_test.go:125"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "navegación;navegacion-a-services",
+                "keyword": "Scenario",
+                "name": "Navegacion a Services",
+                "description": "",
+                "line": 13,
+                "type": "scenario",
+                "tags": [
+                    {
+                        "name": "@Services",
+                        "line": 12
+                    }
+                ],
+                "steps": [
+                    {
+                        "keyword": "Given ",
+                        "name": "accedo a la pagina principal",
+                        "line": 14,
+                        "match": {
+                            "location": "navigation_test.go:18"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 687947700
+                        }
+                    },
+                    {
+                        "keyword": "When ",
+                        "name": "hago click en el menu",
+                        "line": 15,
+                        "match": {
+                            "location": "navigation_test.go:26"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 201649100
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "hago click en el enlace Services",
+                        "line": 16,
+                        "match": {
+                            "location": "navigation_test.go:50"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 299532200
+                        }
+                    },
+                    {
+                        "keyword": "Then ",
+                        "name": "estoy en la página Services con texto \"From Avalith we offer you support at times where you need it most, with complete support for all your projects.\"",
+                        "line": 17,
+                        "match": {
+                            "location": "navigation_test.go:141"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 57865700
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "navegación;navegacion-a-careers",
+                "keyword": "Scenario",
+                "name": "Navegacion a Careers",
+                "description": "",
+                "line": 20,
+                "type": "scenario",
+                "tags": [
+                    {
+                        "name": "@Careers",
+                        "line": 19
+                    }
+                ],
+                "steps": [
+                    {
+                        "keyword": "Given ",
+                        "name": "accedo a la pagina principal",
+                        "line": 21,
+                        "match": {
+                            "location": "navigation_test.go:18"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 769511000
+                        }
+                    },
+                    {
+                        "keyword": "When ",
+                        "name": "hago click en el menu",
+                        "line": 22,
+                        "match": {
+                            "location": "navigation_test.go:26"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 118367000
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "hago click en el enlace careers",
+                        "line": 23,
+                        "match": {
+                            "location": "navigation_test.go:64"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 267137100
+                        }
+                    },
+                    {
+                        "keyword": "Then ",
+                        "name": "estoy en la página careers con texto \"Improve your skills and boost your genius.\"",
+                        "line": 24,
+                        "match": {
+                            "location": "navigation_test.go:155"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 27829300
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "navegación;navegacion-a-our-partners",
+                "keyword": "Scenario",
+                "name": "Navegacion a Our Partners",
+                "description": "",
+                "line": 27,
+                "type": "scenario",
+                "tags": [
+                    {
+                        "name": "@OurPartners",
+                        "line": 26
+                    }
+                ],
+                "steps": [
+                    {
+                        "keyword": "Given ",
+                        "name": "accedo a la pagina principal",
+                        "line": 28,
+                        "match": {
+                            "location": "navigation_test.go:18"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 658202300
+                        }
+                    },
+                    {
+                        "keyword": "When ",
+                        "name": "hago click en el menu",
+                        "line": 29,
+                        "match": {
+                            "location": "navigation_test.go:26"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 147018300
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "hago click en el enlace our partners",
+                        "line": 30,
+                        "match": {
+                            "location": "navigation_test.go:76"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 342404900
+                        }
+                    },
+                    {
+                        "keyword": "Then ",
+                        "name": "estoy en la página Our Partners con texto \"Renowned companies around the world are part of our ally network. We have more than 50 Partners who rely on us for software development.\"",
+                        "line": 31,
+                        "match": {
+                            "location": "navigation_test.go:169"
+                        },
+                        "result": {
+                            "status": "failed",
+                            "error_message": "runtime error: invalid memory address or nil pointer dereference",
+                            "duration": 10016856900
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "navegación;navegacion-a-contact-us",
+                "keyword": "Scenario",
+                "name": "Navegacion a Contact Us",
+                "description": "",
+                "line": 34,
+                "type": "scenario",
+                "tags": [
+                    {
+                        "name": "@ContactUs",
+                        "line": 33
+                    }
+                ],
+                "steps": [
+                    {
+                        "keyword": "Given ",
+                        "name": "accedo a la pagina principal",
+                        "line": 35,
+                        "match": {
+                            "location": "navigation_test.go:18"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 696442100
+                        }
+                    },
+                    {
+                        "keyword": "When ",
+                        "name": "hago click en el menu",
+                        "line": 36,
+                        "match": {
+                            "location": "navigation_test.go:26"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 149646700
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "hago click en el enlace Contact Us",
+                        "line": 37,
+                        "match": {
+                            "location": "navigation_test.go:89"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 231178700
+                        }
+                    },
+                    {
+                        "keyword": "Then ",
+                        "name": "estoy en la página Contact Us con texto \"We want to know more about you!. Write to us at hello@avalith.net or leave us your information and we will get in touch!\"",
+                        "line": 38,
+                        "match": {
+                            "location": "navigation_test.go:183"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 64545400
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "navegación;privacy-policy",
+                "keyword": "Scenario",
+                "name": "Privacy Policy",
+                "description": "",
+                "line": 41,
+                "type": "scenario",
+                "tags": [
+                    {
+                        "name": "@PrivacyPolicy",
+                        "line": 40
+                    }
+                ],
+                "steps": [
+                    {
+                        "keyword": "Given ",
+                        "name": "accedo a la pagina principal",
+                        "line": 42,
+                        "match": {
+                            "location": "navigation_test.go:18"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 505554600
+                        }
+                    },
+                    {
+                        "keyword": "When ",
+                        "name": "hago click en privacy policy",
+                        "line": 43,
+                        "match": {
+                            "location": "navigation_test.go:101"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 223559400
+                        }
+                    },
+                    {
+                        "keyword": "Then ",
+                        "name": "estoy en la pagina de privacy policy con titulo \"We collect different types of information for various purposes, including but not limited to providing and improving our Site and services.\"",
+                        "line": 44,
+                        "match": {
+                            "location": "navigation_test.go:198"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 308755500
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "navegación;terms-of-use",
+                "keyword": "Scenario",
+                "name": "Terms of use",
+                "description": "",
+                "line": 47,
+                "type": "scenario",
+                "tags": [
+                    {
+                        "name": "@TermsOfUse",
+                        "line": 46
+                    }
+                ],
+                "steps": [
+                    {
+                        "keyword": "Given ",
+                        "name": "accedo a la pagina principal",
+                        "line": 48,
+                        "match": {
+                            "location": "navigation_test.go:18"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 495282900
+                        }
+                    },
+                    {
+                        "keyword": "When ",
+                        "name": "hago click en terms of use",
+                        "line": 49,
+                        "match": {
+                            "location": "navigation_test.go:113"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 222516900
+                        }
+                    },
+                    {
+                        "keyword": "Then ",
+                        "name": "estoy en la pagina de terms of use con titulo \"Site Rules\"",
+                        "line": 50,
+                        "match": {
+                            "location": "navigation_test.go:213"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 98706800
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "navegación;email-inválido",
+                "keyword": "Scenario",
+                "name": "Email inválido",
+                "description": "",
+                "line": 53,
+                "type": "scenario",
+                "tags": [
+                    {
+                        "name": "@InvalidEmailSubscription",
+                        "line": 52
+                    }
+                ],
+                "steps": [
+                    {
+                        "keyword": "Given ",
+                        "name": "accedo a la pagina principal",
+                        "line": 54,
+                        "match": {
+                            "location": "navigation_test.go:18"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 671455700
+                        }
+                    },
+                    {
+                        "keyword": "When ",
+                        "name": "ingreso un email con formato incorrecto \"invalidemail@avalith\"",
+                        "line": 55,
+                        "match": {
+                            "location": "navigation_test.go:227"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 141995100
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "al hacer click en el botón 'Suscribe'",
+                        "line": 56,
+                        "match": {
+                            "location": "navigation_test.go:239"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 83139400
+                        }
+                    },
+                    {
+                        "keyword": "Then ",
+                        "name": "aparece un mensaje \"The email you entered is not valid.\"",
+                        "line": 57,
+                        "match": {
+                            "location": "navigation_test.go:250"
+                        },
+                        "result": {
+                            "status": "failed",
+                            "error_message": "runtime error: invalid memory address or nil pointer dereference",
+                            "duration": 5062887200
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "navegación;contact-us----empty-full-name",
+                "keyword": "Scenario",
+                "name": "Contact Us -  Empty full name",
+                "description": "",
+                "line": 60,
+                "type": "scenario",
+                "tags": [
+                    {
+                        "name": "@ContactUsAlternative1",
+                        "line": 59
+                    }
+                ],
+                "steps": [
+                    {
+                        "keyword": "Given ",
+                        "name": "accedo a la pagina principal",
+                        "line": 61,
+                        "match": {
+                            "location": "navigation_test.go:18"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 688837600
+                        }
+                    },
+                    {
+                        "keyword": "When ",
+                        "name": "hago click en el menu",
+                        "line": 62,
+                        "match": {
+                            "location": "navigation_test.go:26"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 159111700
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "hago click en el enlace Contact Us",
+                        "line": 63,
+                        "match": {
+                            "location": "navigation_test.go:89"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 292428200
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "ingreso nombre \"\" e-mail \"testing@avalith.net\" y mensaje \"Este es un mensaje de prueba de al menos 20 caracteres\"",
+                        "line": 64,
+                        "match": {
+                            "location": "navigation_test.go:268"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 252793300
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "al hacer click en Send It",
+                        "line": 65,
+                        "match": {
+                            "location": "navigation_test.go:294"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 47969500
+                        }
+                    },
+                    {
+                        "keyword": "Then ",
+                        "name": "aparece un mensaje de error \"fill in all fields\"",
+                        "line": 66,
+                        "match": {
+                            "location": "navigation_test.go:303"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 22593700
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]
