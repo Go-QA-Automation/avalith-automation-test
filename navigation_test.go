@@ -318,7 +318,7 @@ func apareceUnMensajeDeError(errorMessage string) error {
 // Init Scenario
 func InitializeScenario(ctx *godog.ScenarioContext) {
 	ctx.BeforeScenario(func(*godog.Scenario) {
-		Driver = support.WDInit()
+		Driver = support.New().WDInit()
 		Driver.SetImplicitWaitTimeout(8 * time.Second)
 	})
 
