@@ -13,5 +13,8 @@ selenium:
 godog:
 	@godog feature/*.feature
 
+build:
+	@godog feature/*.feature --format=cucumber > log/report.json
+
 report:
 	@node reporter.js
