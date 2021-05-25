@@ -25,8 +25,8 @@ func WDInit() selenium.WebDriver {
 	}
 
 	if runtime.GOOS == "windows" {
-		chromeDriverPath = path.Join(currentDir, "resources\\chromedriver.exe")                    //`C:\Users\jonat\go\src\github.com\jonathanbs9\go-selenium-avalith-web-test\resources\chromedriver.exe`
-		seleniumPath = path.Join(currentDir, "resources\\selenium-server-standalone-3.141.59.jar") //`C:\Users\jonat\go\src\github.com\jonathanbs9\go-selenium-avalith-web-test\resources\selenium-server-standalone-3.141.59.jar`
+		chromeDriverPath = path.Join(currentDir, "resources\\chromedriver.exe")
+		seleniumPath = path.Join(currentDir, "resources\\selenium-server-standalone-3.141.59.jar")
 	} else {
 		chromeDriverPath = path.Join(currentDir, "resources/chromedriver")
 		seleniumPath = path.Join(currentDir, "resources/selenium-server-standalone-3.141.59.jar")
