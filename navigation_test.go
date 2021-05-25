@@ -327,7 +327,7 @@ func InitializeScenario(ctx *godog.ScenarioContext) {
 
 	// About Us - Services - Careers - Our Patners - Contact Us - Privacy Policy - Terms of Use
 
-	ctx.Step(`^hago click en el enlance About Us$`, hagoClickEnElEnlaceAboutUs)
+	ctx.Step(`^hago click en el enlace About Us$`, hagoClickEnElEnlaceAboutUs)
 	ctx.Step(`^hago click en el enlace Services$`, hagoClickEnElEnlaceServices)
 	ctx.Step(`^hago click en el enlace careers$`, hagoClickEnElEnlaceCareers)
 	ctx.Step(`^hago click en el enlace our partners$`, hagoClickEnElEnlaceOurPartners)
