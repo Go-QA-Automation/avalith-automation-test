@@ -5,8 +5,8 @@ import (
 	"log"
 	"time"
 
+	"github.com/Go-QA-Automation/avalith-automation-test/support"
 	"github.com/cucumber/godog"
-	"github.com/jonathanbs9/go-selenium-avalith-web-test/support"
 	"github.com/tebeka/selenium"
 )
 
