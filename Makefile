@@ -18,3 +18,6 @@ build:
 
 report:
 	@node reporter.js
+
+clean:
+	@rm -fr log/*.{html,json}
